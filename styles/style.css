@@ -16,5 +16,128 @@
   /* var(--"somekey-attr") */
   background-color: var(--black-700);
 }
+@font-face {
+  font-family: popLight;
+  src: url(../assets/fonts/Poppins-Light.ttf);
+
+  font-family: popBlack;
+  src: url(../assets/fonts/Poppins-Black.ttf);
+
+  font-family: poplightbold;
+  src: url(../assets/fonts/Poppins-SemiBold.ttf);
+
+  font-family: popmedium;
+  src: url(../assets/fonts/Poppins-Medium.ttf);
+
+  font-family: popmExLight;
+  src: url(../assets/fonts/Poppins-ExtraLight.ttf);
+
+}
+
+#pagetheme{
+  text-align: center;
+  background-color: rgb(250,131,5);
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 5px;
+  padding:15px 30px 15px ;
+}
+#btndetail
+{ background-color:rgb(250,131,5) ;
+  padding: 15px 30px 15px;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+}
+#image1{
+  height: 650px;
+  width: 700px;
+  margin-top: 20px;
+  margin-right: -400px;
+  float: right;
+}
+#image2{
+  height: 64px;
+  width: 59px;
+  margin-top: 170px;
+  margin-left: 608px;
+  position: absolute;
+}
+#image3{
+  height: 99px;
+  width: 101px;
+  margin-top: 150px;
+  margin-left: 168px;
+  position: absolute;
+}
+.topnav
+{
+
+  margin: 30px;
+  margin-right: -350px;
+
+}
+.Article1{
+  margin-left: 150px;
+  margin-top: 150px;
+  font-family: popmedium;
+  float: left;
+}
+.Article1 h3{
+  color: rgb(250,131,5);
+  font-family: popBlack;
+  margin-bottom: 50px;
+}
+.Article1 h1{
+  font-size: 50px;
+  color: white;
+}
+.Article1 h4{
+  margin-top: 30px;
+  line-height: 40px;
+  color: white;
+  font-family: popmExLight;
+
+}
+.topnav a{
+
+  font-family: popmExLight;
+  display: inline-block;
+  font-size: 20px;
+  float: right;
+  margin-left: 100px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+}
+.topnav a:focus{
+text-decoration: underline orange;
+}
+
+body{
+  max-width: 1440px ;
+  width: 1140px ;
+  min-width: 768px ;
+  background-color: rgb(59, 42, 159)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* good luck */
