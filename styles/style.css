@@ -150,15 +150,74 @@
   padding-bottom: 30px;
 }
 #ImgBig{
-  width: 1146px;
+
+  position: static;
+  z-index: 1;
+  width: 1164px;
   height: 462px;
   border-radius: 5px;
   padding-top: 46px;
   margin-left: 146px;
 }
+#dottedbgn{
+  z-index: 0;
+  width: 196px;
+  height: 154px;
+  position: absolute;
+   margin-left: 972px;
 
 
 
+}
+
+
+#img15{
+  width:382px ;
+  height: 223px;
+  margin-left: 0px;
+  margin-top: 153px;
+}
+#img16{
+  width: 382px;
+  height: 223px;
+  padding-left: 23px;
+  margin-top: 71px;
+}
+#img17{
+  width:352px ;
+  height: 223px;
+  padding-left: 27px;
+}
+#img18{
+  width: 246px;
+  height: 223px;
+  padding-top: 33px;
+
+}
+#img19{
+  width: 401px;
+  height: 223px;
+  padding-left: 27px;
+  padding-top: 33px;
+}
+#img20{
+  width: 496px;
+  height: 223px;
+  padding-left: 27px;
+  padding-top: 33px;
+}
+#btnSeeAll {
+font-family: rubik400;
+  font-size: 15px;
+  color: white;
+  background-color:#5141AA;
+  position: absolute;
+  text-decoration: none;
+  padding: 10px 30px 9px 30px;
+  border-radius: 10px;
+  margin-left: 650px;
+  margin-top: 72px;
+}
 
 
 
@@ -255,6 +314,7 @@
 .box4{
   margin-left: 134px;
   padding-top: 134px;
+  clear: top;
 
 }
 
