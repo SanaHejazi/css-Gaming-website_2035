@@ -66,6 +66,38 @@
 
 
 
+.icon1 {
+  height: 34px;
+  width: 34px;
+  background-color: white;
+  image-rendering: high-quality;
+  border-radius: 40%;
+  padding:11px 13.91px 11px 14.09px;
+  display: block;}
+.icon2 {
+  height: 34px;
+  width: 34px;
+  background-color: white;
+  border-radius: 40%;
+  padding:10px 10px 10px 10px;
+  display: block;}
+.icon3 {
+  max-width: 34px;
+  width: 34px;
+  border-radius: 40%;
+  border-image-slice: fill;
+  background-color: white;
+  padding: 10px 11px ;
+  display: block;}
+.icon4 {height: 34px;
+  width: 34px;
+  background-color: white;
+  border-radius: 40%;
+  padding:10px 11px;
+  display: block;}
+
+
+
 #pagetheme{
   text-align: center;
   background-color: rgb(250,131,5);
@@ -91,11 +123,11 @@
 }
 #image1{
   height: 761px;
-  width: 806px;
+  width: 606px;
   position: absolute;
   z-index: -2;
   margin-top: -100px;
-  margin-left: 150px;
+  margin-left: 230px;
 
   float: right;
 }
@@ -110,13 +142,13 @@
   height: 99px;
   width: 101px;
   margin-top: 102px;
-  margin-left: 154px;
+  margin-left: 254px;
   position: absolute;
 }
 #image4{
   position: absolute;
   margin-top: 309px;
-  margin-left: 0px;
+  margin-left: 100px;
   width: 96px;
   height:30px;
 ;
@@ -164,10 +196,7 @@
   width: 196px;
   height: 154px;
   position: absolute;
-   margin-left: 972px;
-
-
-
+  margin-left: 972px;
 }
 
 
@@ -207,7 +236,7 @@
   padding-top: 33px;
 }
 #btnSeeAll {
-font-family: rubik400;
+  font-family: rubik400;
   font-size: 15px;
   color: white;
   background-color:#5141AA;
@@ -218,7 +247,121 @@ font-family: rubik400;
   margin-left: 650px;
   margin-top: 72px;
 }
+#blackbox{
+  background-color: #1C140F;
+  width: 1170px;
+  height: 189px;
+  border-radius: 15px;
+  margin-top:74px;
+}
+#blackbox article{
+  padding-left: 56px;
 
+}
+
+
+#blackbox h1{
+  font-family: pop300;
+  padding-top:46px;
+  font-size: 30px;
+  color: white;
+}
+
+#blackbox h3{
+  font-family: pop300;
+  font-size: 17px;
+  color: white;
+  padding-top: 10px;
+}
+
+#searchbox{
+  padding-left: 734px;
+  margin-top:-91px;
+}
+
+#searchbox h5{
+  background-color: white;
+  border-radius: 5px;
+  font-family: pop100;
+  padding: 14px 210px 14px 20.5px;
+  color: #898989;
+  width: 385.68px;
+  height: 48px;
+}
+#searchbox h4{
+  background-color: #FA8305;
+  width: 105px;
+  height: 37px;
+  color: white;
+  border-radius: 8px;
+  padding:8px 13.5px 9px 22.2px;
+  margin-left: 274.5px;
+  margin-top: -42px;
+  font-family: pop100;
+  font-size: 13px;
+}
+#footersec{
+  padding-top: 79px;
+  padding-left: 101px;
+}
+#footerdiv1{
+  display: inline-block;
+}
+
+#footerdiv1 h2{
+  font-family:pop700;
+  font-size: 24px;
+  color: white;
+}
+
+#footerdiv1 h2{
+  font-family:pop700;
+  font-size: 24px;
+  color: white;
+}
+#footerdiv1 h4{
+  font-family:pop200;
+  font-size: 16px;
+  color: white;
+  padding-top: 15px;
+  line-height: 24px;
+}
+
+#footerdiv1 h3{
+  font-family:pop100;
+  font-size: 16px;
+  color: white;
+  padding-top: 25px;
+}
+#footerdiv2{
+  float: right;
+  display: inline-block;
+  padding-right:813px ;
+}
+
+#footerdiv2 h3{
+  font-size: 17px;
+  color: white;
+  font-family: pop200;
+}
+#footerdiv3{
+  float: right;
+  display: inline-block;
+  padding-right:375px;
+  margin-top: -164.34px;
+
+}
+#footerdiv3 h3{
+  font-size: 17px;
+  color: white;
+  font-family: pop200;
+}
+
+#footerdiv4{
+  float: right;
+  padding-right: 120px;
+  margin-top: -61px;
+}
 
 
 
@@ -334,6 +477,61 @@ font-family: rubik400;
   padding-top: 30px;
   line-height: 26.25px;
   font-size: 14px;
+}
+.lastbox{
+  margin-top: 234px;
+  margin-left: 136px;
+
+}
+.lastbox h1{
+  margin-top: 105px;
+  font-size: 30px;
+  font-family: pop400;
+  color: white;
+}
+.lastbox h3{
+  padding-top:32px;
+  font-size: 16px;
+  font-family: pop100;
+  color: white;
+  line-height: 30px;
+}
+
+
+
+.footerlist{
+  padding-top: 16px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  line-height: 30px;
+}
+.footerlist a{
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-family: pop300;
+}
+
+.footerlist2{
+  padding-top: 20px;
+  color: white;
+  font-size: 16px;
+  font-family: pop300;
+  list-style-type: none;
+}
+
+
+
+
+footer{
+  background-color: #070707;
+  width: 1440px;
+  height: 376px;
+  margin-top: 163px;
+  left: -1px;
 }
 
 body{
