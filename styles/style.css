@@ -362,6 +362,89 @@
   padding-right: 120px;
   margin-top: -61px;
 }
+#Article1p2{
+margin-top: 114px;
+  margin-left: 110px;
+}
+#Article1p2 h5{
+  color: white;
+  font-family: pop100;
+  font-size: 12px;
+}
+#Article1p2 h2{
+padding-top: 38px;
+  font-size: 30px;
+  font-family: pop400;
+  color: white;
+}
+#Article1p2 h3{
+font-size: 15px;
+  font-family: pop100;
+  padding-top: 25px;
+  color: white;
+  line-height: 31.28px;
+}
+#Article1p2 h4 {
+  font-size: 16px;
+  font-family: pop100;
+  color: white;
+  background-color: #FA8305;
+  display: inline-block;
+  border-radius: 40px;
+  padding: 10.84px 57px 16px 19px;
+  margin-top: 57px;
+}
+#Article1p2 img {
+  position: absolute;
+  margin-left: -37px;
+  margin-top: 73px;
+  width: 12px;
+  height: 12px;
+}
+#image1p2{
+  width: 739px;
+  height: 656px;
+  float: right;
+  margin-top: -519px;
+
+}
+#middleboxp2{
+  background-color: #1C140F;
+  clear: both;
+  width: 1440px;
+  height: 603px;
+  margin-top: 147px;
+}
+#middleboxp2 article{
+  padding-left: 701px;
+  padding-top: 134px;
+}
+#middleboxp2 h5{
+  color: white;
+  font-size: 16px;
+  font-family: pop300;
+}
+#middleboxp2 h1{
+  color: white;
+  font-size: 28px;
+  padding-top: 14px;
+  font-family: pop500;
+  line-height: 44.1px;
+}
+#middleboxp2 h4{
+  color: white;
+  font-size: 16px;
+  font-family: pop300;
+  padding-top: 14px;
+  line-height: 32.4px;
+}
+#middleboxp2 img{
+  position: absolute;
+  width: 596px;
+  height: 490px;
+  padding-left: 110px;
+  margin-top: -367px;
+}
 
 
 
@@ -369,6 +452,48 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boxp2{
+  display: inline-block;
+  color: white;
+  margin-top: 63px;
+  background-color: #1C140F;
+  padding: 64px 37px 64px 37px;
+  border-radius: 20px;
+}
+.boxp2 h3{
+  font-family: pop500;
+  font-size: 20px;
+}
+.boxp2 h4{
+  font-family: pop300;
+  font-size: 14px;
+  padding-top: 16px;
+}
+.boxp2 h5{
+  background-color: #B000DC1C;
+  display: inline-block;
+  font-family: pop300;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 7px 35px 6px 14px;
+  font-size: 14px;
+
+}
 .topnav
 {
   width: 1438.77px;
@@ -522,7 +647,16 @@
   font-family: pop300;
   list-style-type: none;
 }
-
+.box2p2 {
+  margin-top: 257px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.box2p2 h2{
+  color: white;
+  font-size: 25px;
+  font-family: pop300;
+}
 
 
 
