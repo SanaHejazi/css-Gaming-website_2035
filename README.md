@@ -1,5 +1,9 @@
 # CSS Gaming Website
 
+Note:Please open the site in inspect mod (Laptop L-1440px) for correct site scales
+
+
+
 This repository is for practicing CSS attributes for a gaming website.
 
 ## Attention
