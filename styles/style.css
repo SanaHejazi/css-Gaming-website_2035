@@ -9,8 +9,8 @@
 /* 2. we use :root for default variables */
 :root {
   /* --"somekey-attr": "somevalue" i.e : */
-  --black-700: #000;
-  --secondary-color:#FA8305;
+  --black-700: #000;                            /*class color not working in my pycharm*/
+  --secondary-color:#FA8305;                    /*i use regular coloring...*/
 }
 /* 3. and we use it like this */
 .elementOne {
@@ -57,15 +57,6 @@
   font-family: pop100;
   src: url(../assets/fonts/Poppins-Thin.ttf);
 }
-
-
-
-
-
-
-
-
-
 .icon1 {
   height: 34px;
   width: 34px;
@@ -182,8 +173,7 @@
   padding-bottom: 30px;
 }
 #ImgBig{
-
-  position: static;
+  position: relative;
   z-index: 1;
   width: 1164px;
   height: 462px;
@@ -445,11 +435,26 @@ font-size: 15px;
   padding-left: 110px;
   margin-top: -367px;
 }
+#lastboxp2{
+  margin-top: 148px;
+  margin-left: 110px;
+}
+#lastboxp2 h3{
+  font-size: 25px;
+  font-family: pop500;
+  color: white;
+}
+#imageboxlastboxp2{
+  padding-top: 35px;
+}
 
-
-
-
-
+#Homep2{
+  max-width: 1440px ;
+  width: 1440px;
+  height: 3704px;
+  left: 2129px;
+  background-color: rgb(59, 42, 159)
+}
 
 
 
@@ -569,20 +574,34 @@ font-size: 15px;
   color: white;
   padding-top: 25px;
 }
-.part2 img{
+.part2 h4:hover{
+  font-size: 30px;
+}
+.p1img{
   height:350px;
   width: 251px;
   margin-left: 148px;
   padding-top: 57px;
 }
+.p1img:hover{
+  opacity: 0.5;
+}
+.FireImg{
+  position: absolute;
+  margin-left: 191px;
+  margin-top: -25px;
+}
+
+
+
 .part2 li{
   float: right;
 
 }
 .box4{
   margin-left: 134px;
-  padding-top: 134px;
-  clear: top;
+  margin-top: 134px;
+  clear: page;
 
 }
 
@@ -657,6 +676,35 @@ font-size: 15px;
   font-size: 25px;
   font-family: pop300;
 }
+.blackboxp2{
+  background-color: #1C140F;
+  width: 295px;
+  height: 253px;
+  border-radius: 20px;
+}
+.blackboxp2 article{
+  padding: 158px 93px 19px 96px;
+}
+.blackboxp2 article h2{
+  color: white;
+  font-family: pop300;
+  font-size: 19px;
+}
+.blackboxp2 article h4{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-family: pop100;
+  font-size: 16px;
+}
+.blackboxp2 img {
+  width: 106px;
+  position: absolute;
+  height: 106px;
+  margin-top: -200px;
+  margin-left: 86px;
+}
+
 
 
 
@@ -669,6 +717,7 @@ footer{
 }
 
 body{
+
   max-width: 1440px ;
   width: 1440px;
   height: 4351px;
